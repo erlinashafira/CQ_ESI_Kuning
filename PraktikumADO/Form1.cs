@@ -13,6 +13,14 @@ namespace PraktikumADO
 {
     public partial class Form1 : Form
     {
+        SqlConnection conn;
+        SqlCommand cmd;
+
+        private void Koneksi()
+        {
+            conn = new SqlConnection("Data Source=DESKTOP-9K5QG8P;Initial Catalog=PraktikumADO;Integrated Security=True");
+        }
+
         public Form1()
         {
             InitializeComponent();
