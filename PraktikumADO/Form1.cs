@@ -18,7 +18,7 @@ namespace PraktikumADO
 
         private void Koneksi()
         {
-            conn = new SqlConnection("Data Source=DESKTOP-9K5QG8P;Initial Catalog=PraktikumADO;Integrated Security=True");
+            conn = new SqlConnection("Data Source=erlinaaa\\ERLINASHAFIRA;Initial Catalog=DBAkademikADO;Integrated Security=True");
         }
 
         public Form1()
@@ -110,6 +110,11 @@ namespace PraktikumADO
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void btnDosen_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
