@@ -68,7 +68,7 @@
             this.btnHitungMK.Name = "btnHitungMK";
             this.btnHitungMK.Size = new System.Drawing.Size(143, 39);
             this.btnHitungMK.TabIndex = 2;
-            this.btnHitungMK.Text = "Hitung Mahasiswa";
+            this.btnHitungMK.Text = "Hitung Matakuliah";
             this.btnHitungMK.UseVisualStyleBackColor = false;
             this.btnHitungMK.Click += new System.EventHandler(this.btnHitungMK_Click);
             // 
@@ -96,15 +96,15 @@
             // 
             this.txtHasil.Location = new System.Drawing.Point(257, 212);
             this.txtHasil.Name = "txtHasil";
-            this.txtHasil.Size = new System.Drawing.Size(343, 20);
+            this.txtHasil.Size = new System.Drawing.Size(368, 20);
             this.txtHasil.TabIndex = 5;
             // 
             // btnDosen
             // 
             this.btnDosen.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.btnDosen.Location = new System.Drawing.Point(656, 125);
+            this.btnDosen.Location = new System.Drawing.Point(645, 132);
             this.btnDosen.Name = "btnDosen";
-            this.btnDosen.Size = new System.Drawing.Size(85, 30);
+            this.btnDosen.Size = new System.Drawing.Size(96, 35);
             this.btnDosen.TabIndex = 6;
             this.btnDosen.Text = "Hitung Dosen";
             this.btnDosen.UseVisualStyleBackColor = false;
@@ -113,9 +113,9 @@
             // btnUpdateMK
             // 
             this.btnUpdateMK.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.btnUpdateMK.Location = new System.Drawing.Point(656, 186);
+            this.btnUpdateMK.Location = new System.Drawing.Point(645, 186);
             this.btnUpdateMK.Name = "btnUpdateMK";
-            this.btnUpdateMK.Size = new System.Drawing.Size(86, 27);
+            this.btnUpdateMK.Size = new System.Drawing.Size(96, 35);
             this.btnUpdateMK.TabIndex = 7;
             this.btnUpdateMK.Text = "UpdateMK";
             this.btnUpdateMK.UseVisualStyleBackColor = false;
@@ -124,9 +124,9 @@
             // btnInsert
             // 
             this.btnInsert.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.btnInsert.Location = new System.Drawing.Point(666, 241);
+            this.btnInsert.Location = new System.Drawing.Point(645, 241);
             this.btnInsert.Name = "btnInsert";
-            this.btnInsert.Size = new System.Drawing.Size(75, 23);
+            this.btnInsert.Size = new System.Drawing.Size(96, 33);
             this.btnInsert.TabIndex = 8;
             this.btnInsert.Text = "Insert";
             this.btnInsert.UseVisualStyleBackColor = false;
