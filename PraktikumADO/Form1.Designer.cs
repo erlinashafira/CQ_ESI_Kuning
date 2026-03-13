@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtHasil = new System.Windows.Forms.TextBox();
             this.btnDosen = new System.Windows.Forms.Button();
+            this.btnUpdateMK = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnConnect
@@ -108,11 +109,22 @@
             this.btnDosen.UseVisualStyleBackColor = false;
             this.btnDosen.Click += new System.EventHandler(this.btnDosen_Click);
             // 
+            // btnUpdateMK
+            // 
+            this.btnUpdateMK.Location = new System.Drawing.Point(656, 186);
+            this.btnUpdateMK.Name = "btnUpdateMK";
+            this.btnUpdateMK.Size = new System.Drawing.Size(86, 27);
+            this.btnUpdateMK.TabIndex = 7;
+            this.btnUpdateMK.Text = "UpdateMK";
+            this.btnUpdateMK.UseVisualStyleBackColor = true;
+            this.btnUpdateMK.Click += new System.EventHandler(this.btnUpdateMK_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnUpdateMK);
             this.Controls.Add(this.btnDosen);
             this.Controls.Add(this.txtHasil);
             this.Controls.Add(this.label1);
@@ -136,6 +148,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtHasil;
         private System.Windows.Forms.Button btnDosen;
+        private System.Windows.Forms.Button btnUpdateMK;
     }
 }
 
