@@ -88,5 +88,10 @@ namespace PraktikumADO
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
