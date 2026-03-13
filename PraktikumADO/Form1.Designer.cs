@@ -36,6 +36,7 @@
             this.txtHasil = new System.Windows.Forms.TextBox();
             this.btnDosen = new System.Windows.Forms.Button();
             this.btnUpdateMK = new System.Windows.Forms.Button();
+            this.btnInsert = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnConnect
@@ -111,19 +112,32 @@
             // 
             // btnUpdateMK
             // 
+            this.btnUpdateMK.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btnUpdateMK.Location = new System.Drawing.Point(656, 186);
             this.btnUpdateMK.Name = "btnUpdateMK";
             this.btnUpdateMK.Size = new System.Drawing.Size(86, 27);
             this.btnUpdateMK.TabIndex = 7;
             this.btnUpdateMK.Text = "UpdateMK";
-            this.btnUpdateMK.UseVisualStyleBackColor = true;
+            this.btnUpdateMK.UseVisualStyleBackColor = false;
             this.btnUpdateMK.Click += new System.EventHandler(this.btnUpdateMK_Click);
+            // 
+            // btnInsert
+            // 
+            this.btnInsert.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnInsert.Location = new System.Drawing.Point(666, 241);
+            this.btnInsert.Name = "btnInsert";
+            this.btnInsert.Size = new System.Drawing.Size(75, 23);
+            this.btnInsert.TabIndex = 8;
+            this.btnInsert.Text = "Insert";
+            this.btnInsert.UseVisualStyleBackColor = false;
+            this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.btnUpdateMK);
             this.Controls.Add(this.btnDosen);
             this.Controls.Add(this.txtHasil);
@@ -149,6 +163,7 @@
         private System.Windows.Forms.TextBox txtHasil;
         private System.Windows.Forms.Button btnDosen;
         private System.Windows.Forms.Button btnUpdateMK;
+        private System.Windows.Forms.Button btnInsert;
     }
 }
 

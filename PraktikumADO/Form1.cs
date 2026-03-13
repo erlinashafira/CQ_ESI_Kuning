@@ -157,5 +157,10 @@ namespace PraktikumADO
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void btnInsert_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
